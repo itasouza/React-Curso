@@ -21,6 +21,7 @@ const App = () => {
       console.log(event.target.innerText),
     );
     const json = await response.json();
+    console.log(json);
     setDados(json);
     setCarregando(false);
   }
